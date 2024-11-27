@@ -1,0 +1,83 @@
+.login{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(13, 112, 87);
+    color : white; 
+    font-style: italic;
+    font-weight: 600;
+
+}
+.login-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.login-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-title img{
+    cursor: pointer;    
+}
+.login-input{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.login-input input{
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    font-weight: 600;
+    font-size: 17px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.login-condition{
+    display: flex;
+    gap:10px;
+    align-items: center;    
+}
+.login-condition input{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.login-condition p{
+    cursor: pointer;
+}               
+.sign-up{
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+.sign-up:hover{
+    background-color: white;
+    color: rgb(91, 61, 61); 
+} 
+button{
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+    color: rgb(91, 61, 61);
+    font-weight: 600;
+    font-size: 17px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: rgb(91, 61, 61);
+    color: white;
+}

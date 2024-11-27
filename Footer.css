@@ -1,0 +1,36 @@
+.footer{
+    color:white;
+    background-color: #201010;
+    padding: 20px 0px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 14px;    
+    font-weight: 400;
+    letter-spacing: 0.1vw;
+    
+}
+.footer-contents{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin:auto;
+}
+.footer-left{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+}
+.footer-center{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+}
+.footer-right{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+}       

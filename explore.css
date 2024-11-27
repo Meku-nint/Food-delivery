@@ -1,0 +1,58 @@
+.explore-menu{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:20px;
+}
+.explore-menu h1{
+    font-size: 3.5vw;
+    font-weight: 600;
+    letter-spacing: 0.1vw;
+    color:rgb(68, 30, 103);
+    padding: 20px 0px;
+}
+.explore-menu-text{
+    font-size: 2.0vw;
+    font-weight: 400;
+    font-style: italic;
+    color:rgb(68, 30, 103);
+}
+.explore-menu-list{
+   display:flex;
+   text-align: center;
+   justify-content: space-between;
+   margin:20px 0px;
+   align-items: center; 
+   gap:30px;
+   text-align: center;
+   overflow-x:scroll;
+}
+.explore-menu-list::-webkit-scrollbar{
+    display: none;
+}
+.explore-menu-item img{
+width:7.5vw;
+min-width:80px;
+cursor: pointer;
+border-radius:50%;
+transition: 0.2s;
+}
+.explore-menu-list p{
+    color:rgb(56, 12, 12);
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.explore-menu hr{
+    margin:10px 0px;
+    color: bisque;
+    height: 3px;
+}
+
+.explore-menu-item .active{
+   border:2px solid rgb(10, 9, 20);
+   padding:5px;  
+   transform: scale(1.1);
+}
+@media(max-width:600px){
+    
+}
